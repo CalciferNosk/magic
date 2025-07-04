@@ -1,0 +1,235 @@
+body{
+    height: 100vh;
+    /*background: #0062E6 !important;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .img-left{
+    width: 100%;
+    background: url('../image/building.png') center;
+    background-size: cover;
+  }
+  .img-logo{
+    width: 50%;
+    height: 50px;
+    /* background: url(../clearance_assets/image/logo-title.png) center; */
+    background-size: cover;
+  }
+  .card-body{
+    padding: 2rem;
+  }
+  
+  /* .title{
+    margin-bottom: 2rem;
+  } */
+  
+  .form-input{
+    position: relative;
+  }
+  
+  .form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #00000020;
+    border-radius: 50px;
+    outline: none;
+    background: transparent;
+  }
+  
+  .form-input span{
+    position: absolute;
+    top: 10px;
+    padding-left: 15px;
+    color: #007bff;
+  }
+  
+  .form-input input::placeholder{
+    color: black;
+    padding-left: 0px;
+  }
+  
+  .form-input input:focus, .form-input input:valid{
+    border: 2px solid #007bff;
+  }
+  
+  .form-input input:focus::placeholder{
+    color: #454b69;
+  }
+  
+  .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before{
+    background-color: #007bff !important;
+    border: 0px;
+  }
+  
+  .form-box button[type="submit"]{
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #007bff;
+    color: #fff;
+    font-size: 90%;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    transition: 0.5s;
+    padding: 12px;
+  }
+  
+  .form-box button[type="submit"]:hover{
+    background: #0069d9;
+  }
+  
+  .forget-link, .register-link{
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .forget-link:hover, .register-link:hover{
+    color: #0069d9;
+    text-decoration: none;
+  }
+  
+  .form-box .btn-social{
+    color: white !important;
+    border: 0;
+    font-weight: bold;
+  }
+  
+  .form-box .btn-facebook{
+    background: #4866a8;
+  }
+  
+  .form-box .btn-google{
+    background: #da3f34;
+  }
+  
+  .form-box .btn-twitter{
+    background: #33ccff;
+  }
+  
+  .form-box .btn-facebook:hover{
+    background: #3d578f;
+  }
+  
+  .form-box .btn-google:hover{
+    background: #bf3b31;
+  }
+  
+  .form-box .btn-twitter:hover{
+    background: #2eb7e5;
+  }
+  
+  
+  
+  /*customize*/
+  
+    .input, .input:hover, .input:focus, .input:active {
+    background: transparent !important;
+    border: 0 !important;
+    border-style: none !important;
+    border-color: transparent !important;
+    outline: none !important;
+    outline-offset: 0 !important;
+    box-shadow: none !important;
+    border-bottom: 1.5px solid gray !important;
+    border-bottom-right-radius: 0px !important;
+     border-bottom-left-radius: 0px !important;
+  
+  }
+  .btn-customize{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border: 2px solid #24388e ;
+    border-radius: 50px;
+    background-color: #24388e !important;
+    z-index: 1;
+  }
+  .circle{
+    position: absolute;
+    width: 50px;
+    height: 52px;
+    background: yellow !important;
+    border-radius: 50px;
+    left: -3px;
+    top: -2px;
+    z-index: 2;
+    transition: .3s cubic-bezier(1,0,.8,1);
+  }
+  .btn-customize:hover .circle{
+    width: 204px;
+  }
+  .arrow{
+    position: absolute;
+    width: 13px;
+    height: 15px;
+    border-top: 3px solid #24388e ;
+    border-right: 3px solid #24388e;
+    transform: rotate(45deg);
+    top: 20px;
+    left: 17px;
+    transition: .3s;
+  }
+  .btn-customize:hover .arrow{
+    left: 40px;
+  
+  }
+  .arrow:before{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    background: #24388e;
+    transform: rotate(-45deg);
+    left: -10px;
+    top: 6px;
+    opacity: 0;
+    transition: .3s;
+  
+  }
+    .btn-customize:hover .arrow:before{
+      opacity: 1;
+    }
+    .text{
+      position: absolute;
+      color: rgb(255, 255, 255);
+      top: 0;
+      left: 65px;
+      /* font-size: 32px; */
+      line-height: 45px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 600;
+      z-index: 3;
+      transition: .3s;
+    }
+    .btn-customize:hover .text{
+      color: #24388e;
+    }
+  
+    ::placeholder {
+    color: gray;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: gray;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: gray;
+  }

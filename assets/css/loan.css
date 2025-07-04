@@ -1,0 +1,122 @@
+html {
+    overflow-x: hidden
+}
+
+option,
+select {
+    text-transform: uppercase
+}
+
+#sig-canvas {
+    border: 2px dotted #ccc;
+    border-radius: 15px;
+    cursor: crosshair
+}
+
+.box {
+    width: 100%;
+    border: 2px #ccc solid
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    opacity: .5;
+    width: 100%;
+    background-color: #1c3393;
+    height: .01em
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+    border: 0
+}
+
+.myaccordion .card-header {
+    border-bottom-color: #edeff0;
+    background: transparent
+}
+
+.myaccordion .fa-stack {
+    font-size: 18px
+}
+
+.myaccordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #004987;
+    font-size: .6em;
+    padding: 0
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+    text-decoration: none
+}
+
+.myaccordion li+li {
+    margin-top: 10px
+}
+
+h5 {
+    color: #1c3393
+}
+
+.motortrade {
+    color: #1c3393
+}
+
+label {
+    color: #696969
+}
+
+.testd {
+    background-color: #1c3393 !important;
+    padding: 0;
+    align-content: center !important
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #1c3393 !important
+}
+
+.selecta {
+    height: 30px
+}
+
+.inputa {
+    height: 30px
+}
+
+@media only screen and (min-width:768px) {
+    .refattach {
+        width: 50%;
+        float: left
+    }
+
+    .refsigna {
+        width: 50%;
+        float: right
+    }
+}
+
+b.motortrade-margin {
+    margin: 14px;
+}
+
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #ffffff;
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    /* background-color: rgba(0,0,0,.03) !important; */
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+}

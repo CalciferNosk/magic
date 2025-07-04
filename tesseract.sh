@@ -1,0 +1,1 @@
+tesseract "images/Untitledfafaffa.png" out
